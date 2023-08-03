@@ -62,8 +62,8 @@ const Footer = () => {
                   About Us
                 </h5>
                 <div>
-                  <p className='mb-2'>Payment Options</p>
-                  <p className='mb-2'>Track Order</p>
+                  <p className='mb-2'>Corporate</p>
+                  <p className='mb-2'>Careers</p>
                 </div>
               </div>
             </div>

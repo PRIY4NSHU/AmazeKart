@@ -24,7 +24,8 @@ const Header = () => {
           <div className='row '>
             <div className='col-2'>
               <h2>
-                <Link className='text-white'>AmazeKart</Link>
+                {/* <Link className='text-white'>AmazeKart</Link> */}
+                <NavLink to={"/"}><p className='text-white'>AmazeKart</p></NavLink>
               </h2>
             </div>
             <div className='col-5'>
@@ -52,11 +53,11 @@ const Header = () => {
                 <div>
                   <Link className='align-items-center gap-10 d-flex text-white px-1'>
                     <img src='/images/user.svg' alt='user' />
-                    <p className='mb-0'>My Account</p>
+                    <NavLink to={"/login"}><p className='mb-0 text-white'>My Account</p></NavLink>
                   </Link>
                 </div>
                 <div>
-                  <Link className='align-items-center gap-10 d-flex text-white px-1'>
+                  <Link to="/cart" className='align-items-center gap-10 d-flex text-white px-1'>
                     {/* <img className='' src='/images/cart.svg' alt='cart' /> */}
                     <BsCart3 id='cart'/>
                     <div>
@@ -87,9 +88,12 @@ const Header = () => {
                       <span>Categories</span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a className="dropdown-item text-white" href="./about">Action</a></li>
-                      <li><a className="dropdown-item text-white" href="./about">Another action</a></li>
-                      <li><a className="dropdown-item text-white" href="./about">Something else here</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">Mobile & Tablets</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">Electronics</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">TVs & Appliances</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">Fashion</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">Home & Kitchen</a></li>
+                      <li><a className="dropdown-item text-white" href="./about">Furniture</a></li>
                     </ul>
                   </div>
                 </div>
@@ -97,8 +101,9 @@ const Header = () => {
                   <div className='d-flex gap-15'>
                     <NavLink to={"/"}>Home</NavLink>
                     <NavLink to={"/store"}>Store</NavLink>
-                    <NavLink to={"/"}>Blogs</NavLink>
+                    <NavLink to={""}>Blogs</NavLink>
                     <NavLink to={"/contact"}>Contact</NavLink>
+                    <NavLink to={"/policy"}>Policies</NavLink>
                   </div>
                 </div>
               </div>
