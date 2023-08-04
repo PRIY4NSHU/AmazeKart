@@ -16,7 +16,7 @@ const SingleProduct = () => {
     height: 600,
     zoomWidth: 600,
 
-    img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg",
+    img: "https://staticimg.titan.co.in/Titan/Catalog/1805QM01_1.jpg?impolicy=pqmed&imwidth=640",
   };
 
   const [orderedProduct] = useState(true);
@@ -29,7 +29,7 @@ const SingleProduct = () => {
     document.execCommand("copy");
     textField.remove();
   };
-  const closeModal = () => {};
+  const closeModal = () => { };
   return (
     <>
       <Meta title={"Product Name"} />
@@ -45,28 +45,28 @@ const SingleProduct = () => {
             <div className="other-product-images d-flex flex-wrap gap-15">
               <div>
                 <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                  src="https://staticimg.titan.co.in/Titan/Catalog/1805QM01_4.jpg?impolicy=pqmed&imwidth=640"
                   className="img-fluid"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                  src="https://staticimg.titan.co.in/Titan/Catalog/1805QM01_5.jpg?impolicy=pqmed&imwidth=640"
                   className="img-fluid"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                  src="https://staticimg.titan.co.in/Titan/Catalog/1805QM01_6.jpg?impolicy=pqmed&imwidth=640"
                   className="img-fluid"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                  src="https://staticimg.titan.co.in/Titan/Catalog/1805QM01_4.jpg?impolicy=pqmed&imwidth=640"
                   className="img-fluid"
                   alt=""
                 />
@@ -77,11 +77,11 @@ const SingleProduct = () => {
             <div className="main-product-details">
               <div className="border-bottom">
                 <h3 className="title">
-                  Kids Headphones Bulk 10 Pack Multi Colored For Students
+                  Neo Splash Blue Dial Stainless Steel Strap Watch
                 </h3>
               </div>
               <div className="border-bottom py-3">
-                <p className="price">$ 100</p>
+                <p className="price">Rs 5499</p>
                 <div className="d-flex align-items-center gap-10">
                   <ReactStars
                     count={5}
@@ -179,7 +179,7 @@ const SingleProduct = () => {
                   <h3 className="product-heading">Shipping & Returns :</h3>
                   <p className="product-data">
                     Free shipping and returns available on all orders! <br /> We
-                    ship all US domestic orders within
+                    ship all Indian domestic orders within
                     <b>5-10 business days!</b>
                   </p>
                 </div>
@@ -189,7 +189,7 @@ const SingleProduct = () => {
                     href="#!"
                     onClick={() => {
                       copyToClipboard(
-                        "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                        "https://staticimg.titan.co.in/Titan/Catalog/1805QM01_1.jpg?impolicy=pqmed&imwidth=640"
                       );
                     }}
                   >
@@ -207,10 +207,7 @@ const SingleProduct = () => {
             <h4>Description</h4>
             <div className="bg-white p-3">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur nisi similique illum aut perferendis voluptas, quisquam
-                obcaecati qui nobis officia. Voluptatibus in harum deleniti
-                labore maxime officia esse eos? Repellat?
+                Titan Blue Dial Analog with Date Watch for Men
               </p>
             </div>
           </div>
@@ -303,6 +300,7 @@ const SingleProduct = () => {
         </div>
         <div className="row">
           <ProductCard />
+          <ProductCard />
         </div>
       </Container>
 
@@ -349,7 +347,7 @@ const SingleProduct = () => {
             <div className="d-flex justify-content-center py-3">
               <Link
                 className="text-dark"
-                to="/product"
+                to="/store"
                 onClick={() => {
                   closeModal();
                 }}
