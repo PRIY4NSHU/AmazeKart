@@ -5,7 +5,6 @@ import ProductCard from "../Components/ProductCard"
 import SpecialProduct from "../Components/SpecialProduct";
 import { TbTruckDelivery, TbDiscount2 } from 'react-icons/tb'
 import { GiReturnArrow } from 'react-icons/gi'
-// import { TiTick } from 'react-icons/ti'
 import { MdOutlineCheckCircleOutline, MdPayment } from 'react-icons/md'
 
 const Home = () => {
