@@ -6,11 +6,12 @@ import SpecialProduct from "../Components/SpecialProduct";
 import { TbTruckDelivery, TbDiscount2 } from 'react-icons/tb'
 import { GiReturnArrow } from 'react-icons/gi'
 import { MdOutlineCheckCircleOutline, MdPayment } from 'react-icons/md'
+import Container from "../Components/Container"
 
 const Home = () => {
   return (
     <>
-      <section className='home-wrapper-1 py-2'>
+      {/* <section className='home-wrapper-1 py-2'>
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-6'>
@@ -66,7 +67,86 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <Container class1="home-wrapper-1 py-5">
+        <div className="row">
+          <div className="col-6">
+            <div className="main-banner position-relative ">
+              <img
+                src="images/main-banner-1.jpg"
+                className="img-fluid rounded-3"
+                alt="main banner"
+              />
+              <div className="main-banner-content position-absolute">
+                <h4>Listen your heart out</h4>
+                <h5>Boat Shockerz pro</h5>
+                <p>Starting from Rs 599 only</p>
+                <Link to="/store" className="button">BUY NOW</Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
+              <div className="small-banner position-relative">
+                <img
+                  src="images/catbanner-02.jpg"
+                  className="img-fluid rounded-3"
+                  alt="main banner"
+                />
+                <div className="small-banner-content position-absolute">
+                  <h4>Best Seller</h4>
+                  <h5>Samsung Smart</h5>
+                  <p>
+                    From Rs 999.00 <br /> or Rs 40/mo.
+                  </p>
+                </div>
+              </div>
+              <div className="small-banner position-relative">
+                <img
+                  src="images/catbanner-01.jpg"
+                  className="img-fluid rounded-3"
+                  alt="main banner"
+                />
+                <div className="small-banner-content position-absolute">
+                  <h4>NEW ARRIVAL</h4>
+                  <h5>Lenovo ThinkPad</h5>
+                  <p>
+                    From Rs 35999.00 
+                  </p>
+                </div>
+              </div>
+              <div className="small-banner position-relative ">
+                <img
+                  src="images/catbanner-03.jpg"
+                  className="img-fluid rounded-3"
+                  alt="main banner"
+                />
+                <div className="small-banner-content position-absolute">
+                  <h4>NEW ARRIVAL</h4>
+                  <h5>But IPad Air</h5>
+                  <p>
+                    From Rs 99999.00 <br /> or Rs 2549/mo.
+                  </p>
+                </div>
+              </div>
+              <div className="small-banner position-relative ">
+                <img
+                  src="images/catbanner-04.jpg"
+                  className="img-fluid rounded-3"
+                  alt="main banner"
+                />
+                <div className="small-banner-content position-absolute">
+                  <h4>NEW ARRIVAL</h4>
+                  <h5>JBL Nirvana</h5>
+                  <p>
+                    From Rs 5999.00 <br /> or 549/mo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
       <section className='home-wrapper-2 py-2'>
         <div className='container'>
           <div className='row'>

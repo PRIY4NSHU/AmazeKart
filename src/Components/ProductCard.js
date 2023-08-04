@@ -41,9 +41,9 @@ const ProductCard = (props) => {
             <img src="images/watch-2.jpg" className="img-fluid" alt="product" />
           </div>
           <div className="product-details">
-            <h6 className="brand">Havels</h6>
+            <h6 className="brand">Titan</h6>
             <h5 className="product-title">
-              Kids headphones bulk 10 pack multi colored for students
+            Neo Splash Red Dial Fibre Strap Watch
             </h5>
             <ReactStars
               count={5}
@@ -58,7 +58,7 @@ const ProductCard = (props) => {
               dolores et quas molestias excepturi sint occaecati cupiditate non
               provident, similique sunt...
             </p>
-            <p className="price">$100.00</p>
+            <p className="price">Rs 299.00</p>
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">

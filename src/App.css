@@ -108,16 +108,17 @@ footer:not(:first-of-type) {
 /* HomePage=======start */
 
 .main-banner-content {
-  /* top: 60%;
-  left: 10%; */
-  margin-left: 15px;
+  top: 10%;
+  left: 5%;
+  /* margin-left: 15px; */
 }
 
 .small-banner-content{
-  margin-left: 6px;
+  top: 10%;
+  left: 5%;
 }
 
-.main-banner-content h4 {
+.main-banner-content h5 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -127,15 +128,15 @@ footer:not(:first-of-type) {
   text-transform: uppercase;
 }
 
-.main-banner-content h3 {
-font-size: 35px;
-line-height: 54px;
+.main-banner-content h4 {
+font-size: 30px;
+line-height: 50px;
 letter-spacing: -2px;
 font-weight: 500;
 text-transform: none;
 }
 
-.small-banner-content h4 {
+.small-banner-content h5 {
   font-size: 15px;
   font-weight: 700;
   line-height: 0px;
@@ -145,7 +146,7 @@ text-transform: none;
   text-transform: uppercase;
 }
 
-.small-banner-content h3 {
+.small-banner-content h4 {
 font-size: 22px;
 line-height: 34px;
 font-weight: 500;
@@ -153,8 +154,7 @@ text-transform: none;
 }
 
 .small-banner {
-  height: 203px;
-  width: auto;
+  width: 49%;
 }
 
 .button {
