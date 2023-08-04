@@ -24,7 +24,6 @@ const Header = () => {
           <div className='row '>
             <div className='col-2'>
               <h2>
-                {/* <Link className='text-white'>AmazeKart</Link> */}
                 <NavLink to={"/"}><p className='text-white'>AmazeKart</p></NavLink>
               </h2>
             </div>
@@ -39,14 +38,12 @@ const Header = () => {
                 <div>
                   <Link className='align-items-center gap-10 d-flex text-white px-1'>
                     <img src='/images/compare.svg' alt='compare' />
-                    {/* <p className='mb-0'>Compare<br />Products</p> */}
                     <NavLink to={"/compare"}><p className='mb-0 text-white'>Compare<br />Products</p></NavLink>
                   </Link>
                 </div>
                 <div>
                   <Link className='align-items-center gap-10 d-flex text-white px-1'>
                     <img src='/images/wishlist.svg' alt='wishlist' />
-                    {/* <p className='mb-0'>Favorite<br />Products</p> */}
                     <NavLink to={"/wishlist"}><p className='mb-0 text-white'>Favorite<br />Products</p></NavLink>
                   </Link>
                 </div>
